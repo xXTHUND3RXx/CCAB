@@ -889,11 +889,12 @@ section[id],
   display: grid;
   gap: 1.5rem;
   grid-template-columns: 1fr;
+  max-width: 640px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 560px) {
   .contact-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -906,7 +907,6 @@ section[id],
 
 .contact-card:nth-child(1) { background: var(--pink); }
 .contact-card:nth-child(2) { background: var(--cyan); }
-.contact-card:nth-child(3) { background: var(--yellow); }
 
 .contact-card h3 {
   font-size: 1.1rem;
