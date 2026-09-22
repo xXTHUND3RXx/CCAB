@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-labelledby="t4">
+  <title id="t4">Ilustração de dança</title>
+
+  <!-- movement arcs -->
+  <path d="M40 40 Q60 60 40 90" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+  <path d="M190 40 Q170 60 190 90" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+
+  <g transform="translate(120 55)">
+    <!-- head -->
+    <circle cx="0" cy="0" r="13" fill="#FFF7EA" stroke="#000000" stroke-width="4"/>
+    <!-- torso -->
+    <rect x="-10" y="12" width="20" height="30" rx="9" fill="#FFF7EA" stroke="#000000" stroke-width="4"/>
+    <!-- skirt -->
+    <path d="M-18 40 Q0 60 20 40 L26 68 Q0 80 -24 68 Z" fill="#FF66C4" stroke="#000000" stroke-width="4"/>
+    <!-- arms raised -->
+    <rect x="-8" y="8" width="12" height="34" rx="6" fill="#FFF7EA" stroke="#000000" stroke-width="4" transform="rotate(-130 -2 15)"/>
+    <rect x="-4" y="8" width="12" height="34" rx="6" fill="#FFF7EA" stroke="#000000" stroke-width="4" transform="rotate(120 2 15)"/>
+    <!-- legs, one lifted -->
+    <rect x="-9" y="66" width="12" height="34" rx="6" fill="#FFF7EA" stroke="#000000" stroke-width="4"/>
+    <rect x="0" y="66" width="12" height="30" rx="6" fill="#FFF7EA" stroke="#000000" stroke-width="4" transform="rotate(48 6 66)"/>
+  </g>
+
+  <ellipse cx="120" cy="140" rx="30" ry="6" fill="#000000" opacity="0.12"/>
+</svg>
