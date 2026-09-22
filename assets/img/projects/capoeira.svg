@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-labelledby="t1">
+  <title id="t1">Ilustração de capoeira</title>
+  <!-- berimbau -->
+  <path d="M30 130 Q20 70 55 35" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="34" cy="120" r="12" fill="#FFF7EA" stroke="#000000" stroke-width="3.5"/>
+  <line x1="30" y1="130" x2="55" y2="35" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- figure mid-cartwheel (au) -->
+  <g transform="translate(150 85) rotate(-18)">
+    <!-- legs up in V -->
+    <rect x="-6" y="-70" width="14" height="56" rx="7" fill="#FFF7EA" stroke="#000000" stroke-width="4" transform="rotate(-28 0 -70)"/>
+    <rect x="-6" y="-70" width="14" height="56" rx="7" fill="#FFF7EA" stroke="#000000" stroke-width="4" transform="rotate(22 0 -70)"/>
+    <!-- torso -->
+    <rect x="-11" y="-12" width="22" height="34" rx="10" fill="#FFF7EA" stroke="#000000" stroke-width="4"/>
+    <!-- head -->
+    <circle cx="0" cy="-22" r="13" fill="#FFF7EA" stroke="#000000" stroke-width="4"/>
+    <!-- support arm to ground -->
+    <rect x="-6" y="18" width="13" height="40" rx="6.5" fill="#FFF7EA" stroke="#000000" stroke-width="4" transform="rotate(8 0 18)"/>
+    <!-- other arm out -->
+    <rect x="-6" y="10" width="13" height="34" rx="6.5" fill="#FFF7EA" stroke="#000000" stroke-width="4" transform="rotate(-70 0 10)"/>
+  </g>
+
+  <ellipse cx="178" cy="140" rx="34" ry="6" fill="#000000" opacity="0.15"/>
+</svg>
